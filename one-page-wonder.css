@@ -54,7 +54,7 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
-header.masthead {
+div.masthead {
   position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
@@ -67,40 +67,40 @@ header.masthead {
   margin-bottom: 2rem;
 }
 
-header.masthead .masthead-content {
+div.masthead .masthead-content {
   z-index: 1;
   position: relative;
 }
 
-header.masthead .masthead-content .masthead-heading {
+div.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
 }
 
-header.masthead .masthead-content .masthead-subheading {
+div.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
 }
 
 @media (min-width: 892px) {
-  header.masthead {
+  div.masthead {
     /* padding-top: calc(10rem + 140px); */
     padding-bottom: 10rem;
       margin-bottom: 2rem;
   }
-  header.masthead .masthead-content .masthead-heading {
+  div.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
   }
-  header.masthead .masthead-content .masthead-subheading {
+  div.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
   }
 }
 
 @media (min-width: 1200px) {
-  header.masthead {
+  div.masthead {
      padding-top: calc(10rem + 340px);
     padding-bottom: 14rem;
       margin-bottom: 7rem;
   }
-    header.masthead .masthead-content {
+    div.masthead .masthead-content {
   z-index: 1;
   position: relative;
         top: -10rem;
